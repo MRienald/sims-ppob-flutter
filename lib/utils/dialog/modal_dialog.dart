@@ -360,6 +360,7 @@ mixin ModalDialog {
       ..height = 35.h
       ..backgroundColor = AppColors.background1.withOpacity(0.9)
       ..borderRadius = 10.0
+      ..barrierDismissible = false
       ..showCallBack = () {
         print("showCallBack invoke");
       }
